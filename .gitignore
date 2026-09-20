@@ -1,0 +1,20 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data & Output Files
+data/raw/*
+!data/raw/.gitkeep
+final_folder/
+*.csv
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
